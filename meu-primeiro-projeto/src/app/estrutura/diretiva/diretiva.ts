@@ -20,4 +20,13 @@ export class Diretiva {
     {id: '004', nome: 'elo', ativo: false}
   ];
 
+    tamanhoFonte = 15;
+
+    aumentarFonte() {
+      this.tamanhoFonte = this.tamanhoFonte + 1;
+    }
+
+    diminuirFonte(){
+      this.tamanhoFonte = this.tamanhoFonte - 1;
+    }
 }

@@ -6,3 +6,17 @@
     color: red;
 
 }
+.botao1{
+    margin-left: 50px;
+}
+
+.botao2{
+    margin-left: 35px;
+    margin-right: 50px;
+    height: 25px;
+    width: 25px;
+}
+
+li{
+    margin-left: 15px;
+}
