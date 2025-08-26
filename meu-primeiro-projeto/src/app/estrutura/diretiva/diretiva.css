@@ -1,3 +1,7 @@
+html{
+    text-align: center;
+}
+
 .ativo{
     color: blue;
     font-style: bold;
@@ -6,9 +10,7 @@
     color: red;
 
 }
-.botao1{
-    margin-left: 50px;
-}
+
 
 .botao2{
     margin-left: 35px;
@@ -17,6 +19,11 @@
     width: 25px;
 }
 
-li{
-    margin-left: 15px;
+
+ul{
+    list-style-position: inside;
+    text-indent: 0;
+    margin-left: 0;
+    padding-left: 0;
+
 }
