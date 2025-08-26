@@ -4,4 +4,24 @@
 
 <img [src]='caminhoImagem' width="300" height="300">
 
-<button (click)='dizerOi()'></button>
+<div></div>
+
+<p *ngIf="mostrarMensagem">Esta mensagem é exibida condicionalmente</p>
+<button (click)="toggleMensagem()">Alternar mensagem</button>
+
+<div></div>
+<button (click)='dizerOi()'>Mensagem</button>
+
+<div></div>
+
+<ul>
+    <li *ngFor="let item of listaItens">{{ item }}</li>
+</ul>
+
+<div [ngClass]="{'destaque': isDestaque, 'erro': hasError}">
+    Este elemento tem classes dinâmicas
+</div>
+
+<div [ngStyle]="{'background-color': corFundo, 'font-size': tamanhoFonte}">
+    Este elemento tem classes dinâmicas
+</div>

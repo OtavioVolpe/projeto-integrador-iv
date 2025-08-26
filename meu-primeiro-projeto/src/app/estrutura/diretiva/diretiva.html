@@ -1,0 +1,8 @@
+<button (click)="mostrarOcultar()">Mostrar/Ocultar</button>
+<div *ngIf="conteudo">
+    <ul>
+        <p>ID - Nome - Status</p>
+        <p>------------------------------</p>
+        <li *ngFor="let item of listaItens" [ngClass]="{'ativo': item.ativo, 'inativo': !item.ativo}">{{ item.id}} - {{ item.nome }} - {{ item.ativo }}</li>
+    </ul>
+</div>

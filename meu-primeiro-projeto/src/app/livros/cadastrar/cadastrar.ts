@@ -1,3 +1,4 @@
+import { TestRequest } from '@angular/common/http/testing';
 import { Component } from '@angular/core';
 
 @Component({
@@ -11,7 +12,25 @@ export class Cadastrar {
 
     caminhoImagem ='/workspaces/projeto-integrador-iv/meu-primeiro-projeto/public/favicon.ico';
 
-    dizerOi(){
-      this.nome = 'Alunod do 4B';
+    mostrarMensagem = false;
+
+    listaItens = ['Maça', 'Banana', 'Laranja'];
+
+    toggleMensagem() {
+      this.mostrarMensagem = !this.mostrarMensagem;
+      this.isDestaque = false;
+      this.hasError = true;
     }
+
+    dizerOi(){
+      this.nome = 'Alunos do 4B';
+    }
+
+    isDestaque = true;
+    hasError = false;
+
+    corFundo = 'yellow';
+    tamanhoFonte = '20px';
+
+
 }
