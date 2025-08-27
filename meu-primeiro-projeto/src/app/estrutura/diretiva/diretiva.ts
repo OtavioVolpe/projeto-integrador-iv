@@ -14,10 +14,10 @@ export class Diretiva {
   }
 
   listaItens = [
-    {id: '001', nome: 'volpe', ativo: true},
-    {id: '002', nome: 'biel', ativo: false},
-    {id: '003', nome: 'luiz', ativo: true},
-    {id: '004', nome: 'elo', ativo: false}
+    {id: '1', nome: 'Volpe', ativo: true},
+    {id: '2', nome: 'Gabriel', ativo: false},
+    {id: '3', nome: 'Luiz', ativo: true},
+    {id: '4', nome: 'Maria Eloiza', ativo: false}
   ];
 
     tamanhoFonte = 15;
